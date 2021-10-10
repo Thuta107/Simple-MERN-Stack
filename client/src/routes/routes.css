@@ -1,0 +1,16 @@
+.route-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.bar-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+    align-items: center;
+}
+
+.bar-container > * {
+    margin: 5px;
+}
